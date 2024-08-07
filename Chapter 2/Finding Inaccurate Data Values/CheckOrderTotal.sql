@@ -1,3 +1,7 @@
+/*Use SUM() function to get total for the order
+use GROUP BY to group similar/same data and aggregate
+the order item records by Order ID.
+TotalDue and NewTotalDue are the same*/
 SELECT OrderItem.OrderId,
   Orders.TotalDue,
   SUM(Price * Quantity) as NewTotalDue

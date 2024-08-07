@@ -1,3 +1,4 @@
+/*no optput = no duplicate values*/
 SELECT FirstName,
   LastName,
   Address,

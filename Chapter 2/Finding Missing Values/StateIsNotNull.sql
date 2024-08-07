@@ -1,3 +1,5 @@
+/*Should be the same number as # of records in 
+ customer table */
 SELECT CustomerID,
   FirstName,
   LastName

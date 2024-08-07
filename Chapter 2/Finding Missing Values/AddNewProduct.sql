@@ -1,3 +1,4 @@
+/*Product will now be available in the database*/
 INSERT INTO Product (
     ProductID,
     ProductCode,
